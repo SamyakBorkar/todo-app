@@ -1,3 +1,1 @@
-web: gunicorn To-DoApp.wsgi --log-file - 
-#or works good with external database
-web: python manage.py migrate && gunicorn To-DoApp.wsgi
+web: gunicorn To_Do_App.wsgi
